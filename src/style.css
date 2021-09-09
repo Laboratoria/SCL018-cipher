@@ -1,0 +1,77 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.contenedor-index { /*caja padre*/
+  width: 1300px;
+  height: 690px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  text-align: center;    
+}
+.contenedor-titulo{
+  text-align: center;
+}
+.contenedor-titulo h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 27pt;
+  text-shadow: rgba(224, 171, 97, 0.883) 0.1em 0.1em 0.2em
+
+}
+h2, h3, h4 {
+  font-size: 15pt;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+p{
+    font-size: 15pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    text-align: center;
+    font-weight: bolder; /*ponerlo en negrita*/
+}
+#contenedor{
+background: rgba(222, 184, 135, 0.931);
+border-radius: 10px;
+box-shadow: 3px 3px 7px 1px #333;
+}
+.margen{
+  width: 60%;
+}
+
+input{
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    height: 40px;
+    width: auto;
+    border-radius: 12px;
+    border: solid 2pt black;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    opacity: 0.9;
+  }
+  button{
+      background-color: rgb(155, 120, 81);
+      border-radius: 12px;
+      border: solid 2pt black;
+      padding: 10px;
+      width: 200px;
+      font-size: 12pt;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      color: black;
+  }
+  button:hover {
+    background: rgb(170, 60, 20);
+    cursor: pointer;
+  }

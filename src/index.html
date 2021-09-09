@@ -4,11 +4,47 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+  
+</head>
+  
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <img src="image\velasfondo.png" alt="">
+
+      <div class="contenedor-index">
+     
+      <div class="margen">
+     
+         
+        <header class="contenedor-titulo">
+          <h1>Aca encontrarás un espacio seguro</h1>
+          <p>En este ambiente podrás sentirte comodo/a, por este medio te brindaremos herramientas para ayudar
+            a resolver algún problema intrafamiliar. <br>
+            <br>
+           En el siguiente campo puedes poner un mensaje secreto que se autodestruira
+              y solo nosotros, los profesionales, podremos descifrar...</p>
+        </header>
+
+        <section id="contenedor">
+            <form action="">
+              <h2>Indicanos el mensaje:</h2>
+          <p><input type="text" id="mensaje1" size="50"></p>
+          <h3>Selecciona un numero clave</h3>
+          <p><input type="number" id="offset"></p>
+          <button type="button" id="cifrar"><b>Cifrar</b></button>
+          <button type="button" id="descifrar"><b>Descifrar</b></button>
+          <h4>Mensaje Encriptado:</h4>
+          <!--<p><textarea name="textarea" id="mensaje2" cols="30" rows="10"></textarea></p>-->
+          <p id="mensaje2"></p>
+          <button type="reset" value="reset" id="borrar"><b>Borrar</b></button>
+        </form>
+      </section>
+      <footer>
+       <p>¡Muchas gracias por compartir en este espacio con nosotras!</p>
+      </footer>
+      </div>
+        </div>
+      <div id="root"></div>
+  
     <script src="index.js" type="module"></script>
   </body>
 </html>
